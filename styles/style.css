@@ -258,6 +258,13 @@
   transform: scaleX(1);
 }
 
+.card__like-button:focus-visible {
+  outline: none;
+  border: 2px solid var(--accent-color);
+  box-shadow: 2px 2px var(--accent-color);
+  transition: 0.3s ease;
+}
+
 .button__text {
   position: relative;
   z-index: 2;
