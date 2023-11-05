@@ -10,6 +10,7 @@
 :root.theme-light {
     --background-color: #fff;
     --accent-color: #000;
+    --button-accent-color: #fff;
     --font-wght-title: 700;
     --font-wght-text: 400;
     --bg-img: 
@@ -21,6 +22,7 @@
 :root.theme-dark {
     --background-color: #000;
     --accent-color: #00CC14;
+    --button-accent-color: #00cc14;
     --font-wght-title: 785;
     --font-wght-text: 465;
     --bg-img: 
