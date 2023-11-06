@@ -241,8 +241,14 @@
   opacity: 0.5;
   mix-blend-mode: hard-light;
   color: var(--accent-color);
-  -webkit-text-stroke: 1px var(--background-color);
 }
+
+@supports (-webkit-text-stroke: 1px var(--background-color)) {
+  .image-text {
+    -webkit-text-stroke: 1px var(--background-color);
+  }
+}
+
 
 .content {
   display: flex;
