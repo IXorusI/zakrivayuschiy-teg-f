@@ -6,6 +6,10 @@
     --font-wght-text: 400;
     --background-color: #fff;
     --accent-color: #000;
+    --contour-color: var(--accent-color);
+    --main-body-color: none;
+    --core-color: none;
+    --sparks-color: #FF0000;
     --bg-img: 
     repeating-linear-gradient(transparent 0 2px, #d3d3d3 2px 4px),
     repeating-linear-gradient(-90deg, transparent 0 2px, #d3d3d3 2px 4px),
