@@ -64,11 +64,9 @@
   text-transform: uppercase;
   font-family: 'PressStart2P-Regular';
   font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
-  font-size: 23px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: uppercase;
   white-space: nowrap;
   margin-block-end: 5px;
 }
