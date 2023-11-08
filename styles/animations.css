@@ -12,3 +12,30 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes pointer_animation {
+  from {
+    left: -17px;
+  }
+  50% {
+    left: -21px;
+  }
+  to {
+    left: -17px;
+  }
+}
+
+@keyframes sized {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(150%);
+  }
+}
+
+@keyframes sparked {
+  to {
+    opacity: 1;
+  }
+}
