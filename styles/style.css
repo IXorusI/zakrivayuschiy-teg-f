@@ -262,23 +262,27 @@
   block-size: 38px;
 }
 
+.card_button-section:focus-visible {
+  outline: none;
+  border: none;
+}
+
 .card__icon-button {
   object-position: center;
   padding-inline: 0;
   padding-block: 0;
-  margin: 2px 2px 0 0;
-  border: none;
-  outline: none;
+  border: 2px solid var(--background-color);
   background-color: var(--background-color);
 }
 
 .card__icon-button:focus-visible {
   outline: none;
-  border: none;
+  border: 2px solid var(--accent-color);
+  transition: .3s ease;
 }
 
 .card__icon-button:focus {
-  border: none;
+  outline: none;
 }
 
 .card__like-button {
@@ -443,7 +447,7 @@ dialog::backdrop {
 .dialog-form {
   inline-size: 100%;
   background-color: inherit;
-  border: 2px solid var(--accent-color);
+
   grid-column: span 2;
   text-align: center;
 }
@@ -451,9 +455,14 @@ dialog::backdrop {
 .dialog-button {
   inline-size: 100%;
   padding: 9px 17px;
+  border: 2px solid var(--accent-color);
   background-color: inherit;
-  border: none;
   text-transform: uppercase;
+}
+
+.dialog-form:focus-visible {
+  outline: none;
+  border: none;
 }
 
 .dialog-button:focus-visible {
